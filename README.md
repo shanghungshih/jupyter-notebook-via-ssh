@@ -7,7 +7,9 @@
     - recommand to run with screen `screen -S jupyter`
         - `screen -S <screen_name>`: start a new screen
         - `screen -ls`: check out current screen list (ex. 12345.jupyter)
-        - `screen -r 12` or `screen -r jupyter`: switch to 12345.jupyter
+        - `screen -r 12` or `screen -r jupyter`: attach to 12345.jupyter
+        - to detach a screen: `ctrl+A+D` in screen
+        - to shutdown a screen: `ctrl+D` in screen
     - `jupyter notebook --generate-config`: generate jupyter configure file
     - `jupyter notebook password`: setup your password instead of token
     - `jupyter notebook --no-browser --port=8888`: activate jupyter notebook
