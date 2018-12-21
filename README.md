@@ -1,7 +1,8 @@
 # jupyter-notebook-via-ssh
 
-- download [Anaconda](https://www.anaconda.com/download/#linux)
+- download and install [Anaconda](https://www.anaconda.com/download/#linux)
     - `wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh .`
+    - `bash Anaconda3-5.3.1-Linux-x86_64.sh`
 
 - run on server (ex. testuser@140.112.999.999)
     - recommand to run with screen `screen -S jupyter`
