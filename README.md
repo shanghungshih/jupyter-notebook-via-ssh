@@ -1,6 +1,6 @@
 # jupyter-notebook-via-ssh
 
-- download and install [Anaconda](https://www.anaconda.com/download/#linux)
+- download and install [Anaconda](https://www.anaconda.com/download/#linux) on server
     - `wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh .`
     - `bash Anaconda3-5.3.1-Linux-x86_64.sh`
 
@@ -18,3 +18,4 @@
 - connect from local host 
     - `ssh -N -f -L localhost:8889:localhost:8888 testuser@140.112.999.999`: connect via ssh
     - http://localhost:8889/
+    - Note: `killall ssh` if occur "Address already in use"
